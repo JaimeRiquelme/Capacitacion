@@ -1,0 +1,48 @@
+header{
+
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    background-color: aqua;
+    align-items: center;
+    padding: 10px;
+    
+}
+.nombre{
+
+    text-align: center;
+}
+
+.logo{
+
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.links{
+
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+
+
+nav a{
+
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+nav a:hover{
+
+    color: rgb(255, 0, 0);
+}
+
