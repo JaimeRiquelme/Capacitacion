@@ -1,0 +1,103 @@
+header {
+    $headerBgFallback: #1c92d2;
+    $headerBgColorStart: #f2fcfe;
+    $headerBgColorEnd: #1c92d2;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding: 10px;
+    height: 125px;
+    gap: 10px;
+    background: $headerBgFallback;
+    background: -webkit-linear-gradient(to right, $headerBgColorStart, $headerBgColorEnd);
+    background: linear-gradient(to right, $headerBgColorStart, $headerBgColorEnd);
+}
+
+.nombre {
+    $fontName: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    text-align: center;
+    font-family: $fontName;
+}
+
+.logo,
+.logo-nombre {
+    display: flex;
+    align-items: center;
+}
+
+.logo-nombre {
+    grid-column: 1 / span 2;
+}
+
+.footers {
+    $footerBgColorStart: #0ED2F7;
+    $footerBgColorEnd: #B2FEFA;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    background: $footerBgColorStart;
+    background: -webkit-linear-gradient(to right, $footerBgColorStart, $footerBgColorEnd);
+    background: linear-gradient(to right, $footerBgColorStart, $footerBgColorEnd);
+    padding: 20px;
+
+    div {
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    p, img {
+        max-width: 100%;
+    }
+}
+
+.main {
+    display: grid;
+    justify-content: center;
+}
+
+.nav1 {
+    grid-column: 4;
+}
+
+.carousel-inner {
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+
+    h5 {
+        color: white;
+        justify-self: center;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+}
+.contenedormain{
+    background-color: rgb(174, 240, 252);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 50px;
+}
+.titulomain{
+    text-align: center;
+    grid-column: 1/4;
+}
+
+.formulario{
+    padding: 20px;
+    background-color: #0ED2F7;
+    align-items: center;
+    width: auto;
+    grid-column: 2/2;
+
+   border: solid 2px black;
+   
+}

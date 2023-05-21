@@ -1,0 +1,92 @@
+header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  padding: 10px;
+  height: 125px;
+  gap: 10px;
+  background: #1c92d2;
+  background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+  background: linear-gradient(to right, #f2fcfe, #1c92d2);
+}
+
+.nombre {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.logo,
+.logo-nombre {
+  display: flex;
+  align-items: center;
+}
+
+.logo-nombre {
+  grid-column: 1/span 2;
+}
+
+.footers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  background: #0ED2F7;
+  background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);
+  background: linear-gradient(to right, #0ED2F7, #B2FEFA);
+  padding: 20px;
+}
+.footers div {
+  border: 1px solid black;
+  text-align: center;
+}
+.footers p, .footers img {
+  max-width: 100%;
+}
+
+.main {
+  display: grid;
+  justify-content: center;
+}
+
+.nav1 {
+  grid-column: 4;
+}
+
+.carousel-inner {
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+.carousel-inner h5 {
+  color: white;
+  justify-self: center;
+}
+.carousel-inner .carousel-item img {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+}
+
+.contenedormain {
+  background-color: rgb(174, 240, 252);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 50px;
+}
+
+.titulomain {
+  text-align: center;
+  grid-column: 1/4;
+}
+
+.formulario {
+  padding: 20px;
+  background-color: #0ED2F7;
+  align-items: center;
+  width: auto;
+  grid-column: 2/2;
+  border: solid 2px black;
+}
+
+/*# sourceMappingURL=styles.css.map */

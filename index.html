@@ -1,97 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
 
     <title>Document</title>
-</head>
-<body>
-    <header>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-nombre">
         <div class="logo">
-        <img src="UP_LOGO_NO_BG.png" alt="Logo" id="logousachp">
-        <h2 class="nombre">USACH PREMIUM</h2>
-        </div>
-        <nav>
-          <a href="https://www.instagram.com/usach.premium" class="links">INSTAGRAM</a>
-          <a href="https://chat.whatsapp.com/GGD7CIhhRgj2fyiH6yFwEN" class="links">WHATSAPP</a>
-          <a href="https://www.youtube.com/@UsachPremium/playlists" class="links">YOUTUBE</a>
-          <a href="https://discord.com/invite/R9ZsQzBKaR" class="links">DISCORD</a>
+          <img width="100px" src="UP_LOGO_NO_BG.png" alt="Logo" id="logousachp" />
+          <h2 class="nombre">USACH PREMIUM</h2>
+      </div>
+    </div>
+      <nav class="nav1">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">UP</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >INICIO</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">QUIENES SOMOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PRECIOS</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    REDES
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://www.instagram.com/usach.premium/"
+                        >INSTAGRAM</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://www.youtube.com/@UsachPremium/playlists"
+                        >YOUTUBE</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://discord.com/invite/R9ZsQzBKaR"
+                        >DISCORD</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
-        
+      </nav>
     </header>
     <main>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="imgs/ayudantia1.jpg"
+              class="d-block w-100"
+              alt="IMAGENAYUDANTIA1"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="https://images.ecestaticos.com/FVdcvD11qPRi-JWDH3USTiXDmeQ=/0x0:2120x1414/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F47b%2F328%2F963%2F47b3289639713b8e80c8d682d219fba7.jpg" class="d-block w-100" alt="Imagen gato 1">
-
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="https://as01.epimg.net/diarioas/imagenes/2022/04/20/actualidad/1650466413_240889_1650466661_noticia_normal_recorte1.jpg" class="d-block w-100" alt="Imagen gato 2">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuvs7ALZNnfjhBnianaZVUGEFonkjXK_DE4Q&usqp=CAU" class="d-block w-100" alt="images gato 3">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="imgs/ayudantia2.JPG"
+              class="d-block w-100"
+              alt="IMAGENAYUDANTIA2"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-          <div class="titulomain">
-            <h1>TITULO1</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati commodi a libero illo! Nobis error voluptatem assumenda aliquam modi dolorum, dicta vero, voluptatibus earum corrupti nesciunt! In et quod architecto.
-          
-            </p>
+          <div class="carousel-item">
+            <img
+              src="imgs/ayudantia3.JPG"
+              class="d-block w-100"
+              alt="IMAGENAYUDANTIA3"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
+            </div>
           </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="contenedormain">
+        <div class="titulomain">
+          <h1>BIENVENIDA!</h1>
+          <p>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+           commodi a libero illo! Nobis error voluptatem assumenda aliquam modi
+           dolorum, dicta vero, voluptatibus earum corrupti nesciunt! In et quod
+           architecto.
+         </p>
+       </div>
+       <div class="formulario">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Direccion de correo electronico</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Escribenos tu opinión!</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button class="button">Enviar</button>
+       </div>
+      </div>
     </main>
     <footer>
-      <div class="footer">
+      <div class="footers">
         <div id="QUESOMOS">
-          <img src="" alt="">
+          <img width="80px" src="imgs/user.png" alt="icon quienes somos" />
           <h3>QUIENES SOMOS</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt neque praesentium ducimus minus id assumenda totam, est, numquam necessitatibus quia commodi. Aliquid, blanditiis. Voluptas omnis magnam incidunt. Officia, nobis doloribus.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            neque praesentium ducimus minus id assumenda totam, est, numquam
+            necessitatibus quia commodi. Aliquid, blanditiis. Voluptas omnis
+            magnam incidunt. Officia, nobis doloribus.
+          </p>
         </div>
         <div id="PLANNING">
+          <img width="80px" src="imgs/planning.png" alt="icon planning" />
           <h3>PLANNING</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque architecto, rem quas officia quae eligendi tempora itaque nihil ipsum quam distinctio, incidunt fuga placeat aliquid quo? Sit nulla architecto iure!</p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque
+            architecto, rem quas officia quae eligendi tempora itaque nihil
+            ipsum quam distinctio, incidunt fuga placeat aliquid quo? Sit nulla
+            architecto iure!
+          </p>
         </div>
         <div id="MARKETING">
+          <img width="80px" src="imgs/finance.png" alt="icon MARKETING" />
           <h3>MARKETING</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat voluptas neque quod, nam quo illo. Numquam consequatur veritatis aspernatur tenetur laborum dolores, accusamus, recusandae voluptatem eaque ducimus, saepe nobis vel!</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+            voluptas neque quod, nam quo illo. Numquam consequatur veritatis
+            aspernatur tenetur laborum dolores, accusamus, recusandae voluptatem
+            eaque ducimus, saepe nobis vel!
+          </p>
         </div>
         <div id="RESULTADOS">
+          <img width="80px" src="imgs/notepad.png" alt="icon RESULTADOS" />
           <h3>RESULTADOS</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, debitis? Tempora modi temporibus deserunt cupiditate laudantium fuga architecto dignissimos, laboriosam necessitatibus quisquam ut nam a ad eos labore, nobis reprehenderit!</p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero,
+            debitis? Tempora modi temporibus deserunt cupiditate laudantium fuga
+            architecto dignissimos, laboriosam necessitatibus quisquam ut nam a
+            ad eos labore, nobis reprehenderit!
+          </p>
         </div>
       </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
